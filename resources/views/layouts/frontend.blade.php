@@ -18,7 +18,7 @@
             <div class="panel">
                 <div class="list">
                     <br>
-                    <h3>Restaurant list</h3>
+
                     @yield('content')
 
 

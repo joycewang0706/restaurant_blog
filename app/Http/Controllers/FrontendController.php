@@ -8,13 +8,16 @@ class FrontendController extends Controller
 {
 
     public function index(){
+
         return view('frontend.index');
     }
     public function register(){
         return view('frontend.register');
     }
-    public function login(){
-        return view('frontend.login');
+    public function login(Request $request){
+        //dd($request);
+        $page_title="New login Page";
+        return view('frontend.login',['page_title'=>$page_title]);
     }
 }
 

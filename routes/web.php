@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.index');
-});
+
+
+
+Route::get('/',[\App\Http\Controllers\FrontendController::class,'index'])->name('Home');
+Route::get('register',[\App\Http\Controllers\FrontendController::class,'register']);
+Route::get('login',[\App\Http\Controllers\FrontendController::class,'login']);
+
+
+

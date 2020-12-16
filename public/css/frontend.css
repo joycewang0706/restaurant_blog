@@ -1,24 +1,55 @@
-h3{
+body {
+    background-color: #3B3B3C;
+}
+
+nav {
+    width: 100%;
+    height: 55px;
+    background: linear-gradient(270deg, rgba(255, 153, 0, 0.7) 0%,
+    rgba(255, 168, 0, 0.585339) 95.78%,
+    rgba(255, 168, 0, 0.7) 99.39%,
+    rgba(255, 168, 0, 0.581) 99.4%);
+}
+
+nav li#nav_li {
+    color: #FFFFFF;
+    font-family: Roboto;
+
+    font-size: 20px;
+    line-height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+a.navbar-brand {
+    font-family: Stoke;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+a#nav-option {
+    color: #FFFFFF;
+    font-family:Roboto ;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+h3 {
     color: #FFFFFF;
     font-weight: bolder;
 }
-.list{
+
+.list {
 }
-table.list{
+
+table.list {
 
     width: 1150px;
     background-color: #FFFFFF;
 
 }
-table.list tr{
-
-    border: 1.3rem solid #3B3B3C;
-    height: 230px;
-    cursor: pointer;
+#list_part{
+   background-color:  #3B3B3C;
 }
-table.list td{
-
-    border: 1px solid darkred;
-    height: 230px;
-    cursor: pointer;
+#col_list{
+    background-color: #FFFFFF;
 }
